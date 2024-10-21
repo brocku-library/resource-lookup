@@ -3,7 +3,7 @@
 This tool has been built to make library resource and library personnel search easy.
 
 To deploy locally, just clone the repository and run -
-```./gradlew clean build```
+```./gradlew clean build``` and then
 ```./gradlew run```
 
 #### System Requirements
