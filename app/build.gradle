@@ -28,7 +28,3 @@ java {
 application {
     mainClass = 'brockresource.LibResourceLookup'
 }
-
-tasks.named('test') {
-    useJUnitPlatform()
-}

@@ -4,4 +4,4 @@
 */.gradle/
 app/build/
 *.jar
-*application.properties
+resource_lookup.env
