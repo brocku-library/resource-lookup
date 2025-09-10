@@ -28,7 +28,7 @@ public class ResourceController {
 
     @Value("${snipe.access}")
     String token;
-    private static final String url = "http://rtod.library.brocku.ca:3051/api/v1/hardware?limit=500&offset=0&sort=created_at&order=desc&search=%s";
+    private static final String url = "http://rtod.library.brocku.ca:3052/api/v1/hardware?limit=500&offset=0&sort=created_at&order=desc&search=%s";
 
     @GetMapping("/search")
     public String view(ModelMap model) {
