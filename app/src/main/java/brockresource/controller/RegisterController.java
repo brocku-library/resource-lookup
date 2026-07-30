@@ -25,7 +25,7 @@ public class RegisterController {
 
     @GetMapping
     public String register(@AuthenticationPrincipal User principal, ModelMap model) {
-        if (!principal.getUsername().equals("pranjal")) {
+        if (!principal.getUsername().equals("admin")) {
             throw new IllegalTransactionStateException("Unauthorized");
         }
 
@@ -37,7 +37,7 @@ public class RegisterController {
     public String saveUser(@Valid @ModelAttribute User user, BindingResult result,
             @AuthenticationPrincipal User principal, ModelMap model) {
 
-        if (!principal.getUsername().equals("pranjal")) {
+        if (!principal.getUsername().equals("admin")) {
             throw new IllegalTransactionStateException("Unauthorized");
         }
 

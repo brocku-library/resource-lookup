@@ -3,5 +3,6 @@
 .vscode/
 */.gradle/
 app/build/
+app/bin/
 *.jar
 resource_lookup.env
